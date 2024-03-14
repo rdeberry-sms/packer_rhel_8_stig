@@ -27,7 +27,7 @@ locals {
       ssh_key                  = var.ssh_key
       epel_url                 = var.epel_url
       appstream_url            = var.appstream_url
-      rhsm_activation_key                 = var.rhsm_activation_key
+      rhsm_activation_key      = var.rhsm_activation_key
       rhsm_org                 = var.rhsm_org
       build_hostname           = var.build_hostname
 
