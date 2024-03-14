@@ -113,10 +113,6 @@ pwpolicy luks --minlen=6 --minquality=1 --notstrict --nochanges --notempty
 
 %end
 
-%addon org_fedora_oscap
-content-type = scap-security-guide
-profile = xccdf_org.ssgproject.content_profile_stig
-%end
 
 %post
 echo "${build_username} ALL=(ALL)    NOPASSWD:ALL" >> /etc/sudoers
